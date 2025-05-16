@@ -1,0 +1,6 @@
+/* globals.css */
+@tailwind base; @tailwind components; @tailwind utilities;
+
+/* Custom */
+.message-enter { opacity:0; transform: translateY(10px) }
+.message-enter-active { opacity:1; transform: translateY(0); transition: all .3s }
